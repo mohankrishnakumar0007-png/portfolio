@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f7;
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+header {
+    background-color:#00574b;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+section {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.about{
+    text-align: center;
+
+}
+
+.about img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 5px solid #2c3e50;
+    transition: 0.3s;
+    
+}
+.skills ul {
+    padding-left: 20px;
+}
+
+.skills li {
+    margin-bottom: 8px;
+}
+.projects h3 {
+    margin-top: 15px;
+    color: #34495e;
+}
+.contact p {
+    margin: 5px 0;
+}
+footer {
+    background-color: #581f6b;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    transition: 0.25s;
+    box-shadow: 0 0  30px rgba(3, 55, 47, 0.2);
+
+}
+
+header h1:hover {
+    color: #f1c40f;
+    transition: 0.3s;
+}
+.skills li:hover {
+    color: #2c3e50;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.projects h3:hover {
+    color: #2980b9;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact p:hover {
+    color: #2980b9;
+    cursor: pointer;
+    transition: 0.2s;
+}
+footer:hover {
+    background-color: #2a1630;
+    transition: 0.3s;
+}
+img:hover{
+    transform: scale(1.1);
+    border: 8px solid rgba(17, 255, 0, 0.437);
+}
